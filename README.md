@@ -1,6 +1,6 @@
 ## SQLIs
 
-### SQLIs/SQLi Split-Payload Exploit - [Link](https://github.com/gosirys/Memorabilia/tree/main/SQLIs/mssql-dump-splitPayload.pl)
+### SQLIs/SQLi Split-Payload Exploit - [Link](https://github.com/gosirys/Offensive/blob/main/SQLIs/mssql-dump-splitPayload.pl)
 
 This was coded to exploit a tricky SQL Injection vulnerability I found in one of my earliest pentest in 2011. The affected  resource had 6 vulnerable parameters, each one with a max-length enforced server-side causing all payloads being truncated after x chars.
 Since it was a error-based SQLi, I could see the resulting query when it was failing due to syntax errors caused by the input truncation.
